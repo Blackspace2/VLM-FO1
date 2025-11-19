@@ -10,7 +10,7 @@ def build_vision_tower(vision_tower_cfg, **kwargs):
     Returns: instance of configured vision backbone
     """
     vision_tower_name = getattr(vision_tower_cfg, 'mm_vision_tower', None)
-    print(vision_tower_cfg)  # Debug print of the config being used
+    # print(vision_tower_cfg)  # Debug print of the config being used
     
     # Check for the Qwen2.5-VL vision model in tower name
     if "qwen2.5-vl" in vision_tower_name.lower():

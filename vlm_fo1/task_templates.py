@@ -15,3 +15,5 @@ Grounding_template = "Briefly describe this image and detect all mentioned objec
 Visual_Prompt_OD_template = "Using the provided object {} as a reference, identify all other objects of the same category in this image. Respond with object indexes."
 
 Viusal_Region_Reasoning_template = "First thinks about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think><answer> answer here </answer>. Please give a detailed reasoning process process and provide image regions that can help you answer the question better. {}"
+
+OD_All_template = "Please identify every object in the image and provide their labels along with their indexes."
